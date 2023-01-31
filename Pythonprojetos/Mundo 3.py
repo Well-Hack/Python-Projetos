@@ -7,3 +7,5 @@ for comida in lanche:
     print(f'Eu vou comer {comida}')
 print(f'Comi pra caramba!')
 
+#TESTE
+
