@@ -7,4 +7,4 @@ print('Aparece {} vezes a letra "A"'.format(nome2))
 nome3 = nome.upper().rfind('A')+1
 print('A ultima vez que aparece a letrá A é {}'.format(nome3))
 nome4 = nome.upper().split()
-print('A primeira vez que aparece a Letra A é {} considerar 0 como inicio'.format(nome4[0].index('A')+1))
+print('A primeira vez que aparece a Letra A é {}'.format(nome4[0].index('A')+1))
