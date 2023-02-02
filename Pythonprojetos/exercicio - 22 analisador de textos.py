@@ -7,7 +7,7 @@ nome = input('Olá, digite o seu nome completo que iremos analisa-lo por favor:'
 print('Seu nome em letras maiusculas fica {}'.format(nome.upper()))
 print('Seu nome em letras minusculas fica {}'.format(nome.lower()))
 nome2 = nome.replace(' ','')
-nome3 = len(nome)
+nome3 = len(nome2)
 separa = nome.split()
 print('O seu nome completo sem espaço tem {} letras'.format(nome3))
 print('O seu primeiro nome {} ele tem {} letras '.format(separa[0], len(separa[0])))
