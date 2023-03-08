@@ -1,3 +1,4 @@
+
 print('Desafio 10 - Crie um programa que leia quanto dinheiro uma pessoa tem na carteira R$ e mostre quantos dólares ela pode comprar. ')
 
 print('=*'*30)
