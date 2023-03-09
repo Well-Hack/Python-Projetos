@@ -1,7 +1,0 @@
-al = input('Digite algo: ')
-print('É alfabetica? ',al.isalpha())
-print('é numerico? ',al.isnumeric())
-print('É maiuscula? ',al.isupper())
-print('É minuscula? ',al.islower())
-print('é alfanumerica?',al.isalnum())
-print('Ó tipo primitico desse valor é?',type(al))

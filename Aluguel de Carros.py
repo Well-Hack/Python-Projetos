@@ -1,5 +1,0 @@
-print('Seja bem vindo a Renova Car! ')
-D = float(input('Quantos dias o carro ficou alugado? '))
-K = float(input('Kilometragem rodada: '))
-R = (D * 60) + (K*0.15)
-print ('O valor total que se deve pagar é de R${:.2f}'.format(R))
