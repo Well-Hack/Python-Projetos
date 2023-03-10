@@ -1,4 +1,4 @@
-print('Desafio 24 - Crie um programa que leia o nome de uma pessoa e diga se ela tem “SILVA” no nome.')
+print('Desafio 25 - Crie um programa que leia o nome de uma pessoa e diga se ela tem “SILVA” no nome.')
 
 print('=*' * 30)
 print('Procurando uma string dentro de outra')
