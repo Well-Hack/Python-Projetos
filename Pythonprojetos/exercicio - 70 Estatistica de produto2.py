@@ -26,7 +26,7 @@ while q1 == 'S':
         q1 = str(input('Deseja cadastra mais algum produto? [S/N]: ')).upper().strip()[0]
         if q1 == 'N':
             print(f'Os dados coletatos totais foram... ')
-            print(f'O total de gastos foi de {total}')
+            print(f'O total de gastos foi de R${total}')
             print(f'A quantidade de produtos acima de R$1.000 foi de {m10} produtos')
             print(f'O produto mais barato foi o/a {barato}')
             break
