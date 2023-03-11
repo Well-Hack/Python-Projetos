@@ -6,5 +6,5 @@ if N1 > N2:
     print('O primeiro Numero é Maior')
 elif N2 > N1:
     print('O segundo Numero é Maior ')
-elif N1 == N2:
+else:
     print('Os dois numeros são identicos')
