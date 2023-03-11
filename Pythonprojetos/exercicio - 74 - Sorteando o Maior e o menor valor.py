@@ -8,6 +8,9 @@ print('=+'*30)
 print('Maior e menor valores em Tupla')
 print('=+'*30)
 
+n = (randint(1,10), randint(1,10), randint(1,10), randint(1,10), randint(1,10))
+print(f'Eu sorteei o valor {n}')
+print(f'O maior valor sorteado foi {max(n)}')
+print(f'O Menor valor sorteado foi {min(n)}')
 
-n1 = randint('', '','', '', '')
-print(n1)
+
