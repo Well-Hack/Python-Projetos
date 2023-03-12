@@ -6,7 +6,12 @@ print('=+'*20)
 print('Contando vogais em Tuplas')
 print('=+'*20)
 
-frase = ('Maca', 'Abacaxi', 'Banana', 'Tomate', 'Limao', 'Maracuja')
+frase = ('Maca', 'Caju', 'Banana', 'Tomate', 'Limao', 'Maracuja')
 print(frase)
 
-print(f'A palavra {frase[0]} tem as vogais')
+for p in frase:
+    print(f' \nA palavra {p.upper()} tem as vogais', end=' ')
+    for vogais in p:
+        if vogais.lower() in 'aeiou':
+            print(vogais, end=' ')
+
