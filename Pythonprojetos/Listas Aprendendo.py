@@ -14,3 +14,7 @@ num.sort(reverse=True)
 print(num)
 del num[2]
 print(num)
+
+for c, n in enumerate(num):
+    print(f'Na posição {c} encontrei o valor {n}')
+print('Pronto!')
