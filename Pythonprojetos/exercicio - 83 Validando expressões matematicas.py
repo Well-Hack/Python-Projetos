@@ -3,6 +3,21 @@ print('Exercicio - 83  Crie um programa onde o usuário digite uma expressão qu
       'com os parênteses abertos e fechados na ordem correta.')
 
 print('=+'*30)
-print('DValidando expressões matemáticas')
+print('Validando expressões matemáticas')
 print('=+'*30)
 
+expr = str(input('Digite a expressão: '))
+pilha = []
+for simb in expr:
+    if simb == '(':
+        pilha.append('(')
+    elif simb == ')':
+        if len(pilha) > 0:
+            del pilha[-1]
+        else:
+            pilha.append=(')')
+            break
+if len(pilha) == 0:
+    print('Sua expressão esta valida')
+else:
+    print('Sua expressão esta errada')
