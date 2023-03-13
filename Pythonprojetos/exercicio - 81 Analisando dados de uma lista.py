@@ -12,7 +12,7 @@ list = []
 c = 0
 while True:
     list.append(int(input('Digite um valor: ')))
-    r = str(input('Deseja colcoar mais um valor? [S/N]')).upper()
+    r = str(input('Deseja colocar mais um valor? [S/N]')).upper()
     c += 1
     if r == 'N':
         break
