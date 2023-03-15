@@ -7,7 +7,6 @@ print('Exercicio - 84 Faça um programa que leia nome e peso de várias pessoas,
 print('=+'*30)
 print('Lista composta e análise de dados')
 print('=+'*30)
-
 cad = list()
 data = list()
 co = 0
