@@ -20,6 +20,8 @@ for c in range(7):
         else:
             impar.append(vlr)
             print(f'Valor foi adicionado na lista de impares {impar}')
+impar.sort()
+par.sort()
 print("=+"*50)
 print(f'Os numeros foram: {data}')
 print(f'Voce adicionou valores pares que foram: {par} ')
