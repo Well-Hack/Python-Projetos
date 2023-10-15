@@ -11,7 +11,7 @@ data = list()
 par = list()
 impar = list()
 print('Olá, digite sete numeros separados que informaremos os pares e os impares')
-for c in range(7):
+for c in range(9):
         vlr = int(input(f'Digite o {c+1}º valor: '))
         data.append(vlr)
         if vlr % 2 == 0:
