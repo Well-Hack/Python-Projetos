@@ -9,6 +9,6 @@ while True:
       n2 = int(input("Por favor Digite um numero de 0 a 20: "))
       if 0 <= n2 <= 20:
             break
-      print('Tente Novamente.', end=" ")
+      print('Tente Novamente. \n', end=" ")
 print(f"Você digitou o numero {n1[n2]}")
 
