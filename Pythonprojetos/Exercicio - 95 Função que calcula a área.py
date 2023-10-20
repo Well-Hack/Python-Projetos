@@ -1,8 +1,9 @@
 def calculo(a, b):
     s = a * b
     print('='*30)
-    print(f'A area {a} metros de altura x por {b} metros de largura, é de: {s}')
+    print(f'A area {a} metros de altura x por {b} metros de comprimento, é de: {s}')
     print('=' * 30)
+
 
 print('='*20)
 print('Calculo de área')
