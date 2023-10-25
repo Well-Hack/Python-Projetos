@@ -21,7 +21,7 @@ if cadastro['ctps'] != 0:
           f'O nome do funcionário é {cadastro["nome"]} \n'
           f'Ele tem {cadastro["idade"]} anos \n'
           f'Ele tem como Carteira de trabalho a numeração {cadastro["ctps"]}\n'
-          f'Ele se aposentará aos {cadastro["aposentadoria"]}')
+          f'Ele se aposentará daqui há {cadastro["aposentadoria"]} anos')
 else:
     print(f'=='*10)
     print(f'Segue os dados... \n'
